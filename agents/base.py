@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Model used across all agents — change here to update everywhere
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-5"
 
 
 def create_client() -> anthropic.Anthropic:
